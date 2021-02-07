@@ -1,4 +1,6 @@
 package modifierexamples;
+/*This class is used to create variables with different access modifiers to see the effects they have
+See TestClass2 to see this in action*/
 
 class TestClass {
     public static int publicNumber = 20;  /*The static keyword allows the variable to be accessed from
