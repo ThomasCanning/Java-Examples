@@ -1,3 +1,5 @@
+package InheritanceExample;
+
 public class Player {  //This is the superclass
     String name = "Stickman";        // Vehicle attribute
     public static void healthBoost(int boostAmount) {                    // Vehicle method
