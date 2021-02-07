@@ -1,4 +1,4 @@
-package InheritanceExample;
+package Inheritanceexample;
 
 public class Player {  //This is the superclass
     String name = "Stickman";        // Vehicle attribute
