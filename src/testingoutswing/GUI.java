@@ -1,3 +1,5 @@
+package testingoutswing;
+
 import javax.swing.*;
 import javax.swing.JPanel;
 import java.awt.*;
@@ -27,7 +29,7 @@ public class GUI implements ActionListener {
 
         frame.add(panel, BorderLayout.CENTER);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setTitle("Our GUI");
+        frame.setTitle("Our testingoutswing.GUI");
         frame.pack();
         frame.setVisible(true);
 
