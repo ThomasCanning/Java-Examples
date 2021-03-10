@@ -12,7 +12,7 @@ abstract class Lamp {  //Using abstract class for abstraction, objects can't be 
 class TallLamp extends Lamp { //Must create a class that extends from abstract class to create objects
     public void autoTurnOff() {
         System.out.println("Automatically turning off at 10PM");
-    }
+    } //Overriding
 }
 
 
