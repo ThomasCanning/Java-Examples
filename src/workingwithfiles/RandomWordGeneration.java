@@ -12,7 +12,7 @@ public class RandomWordGeneration {
         return randomNumber;
     }
 
-    public static void main(String[] args) throws FileNotFoundException {
+    public static String generate() throws FileNotFoundException {
         File file = new File("word_library.txt");  //reading file with words in
         Scanner scan = new Scanner(file);
         List<String> words = new ArrayList<String>();
@@ -21,7 +21,8 @@ public class RandomWordGeneration {
             words.add(i, scan.nextLine());
         }
 
-        System.out.println(words.get(RandomWordGeneration.random(words.size())));
-                //Using random method to get a random word from the list of words
+        String randomWord = words.get(RandomWordGeneration.random(words.size())); //Using random method to get a random word from the list of words
+
+        return randomWord;
     }
 }
