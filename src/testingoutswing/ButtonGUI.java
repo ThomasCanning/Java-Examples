@@ -6,14 +6,14 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class GUI implements ActionListener {
+public class ButtonGUI implements ActionListener {
 
     private int count = 0;
     private JLabel label;
     private JFrame frame;
     private JPanel panel;
 
-    public GUI() {
+    public ButtonGUI() {
 
         frame = new JFrame();
 
@@ -37,7 +37,7 @@ public class GUI implements ActionListener {
     }
 
     public static void main(String[] args) {
-        new GUI();
+        new ButtonGUI();
     }
 
     @Override
