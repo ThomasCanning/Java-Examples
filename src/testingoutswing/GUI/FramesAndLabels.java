@@ -4,7 +4,7 @@ import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.*;
 
-public class GUI{
+public class FramesAndLabels {
 
     public static void main(String[] args) {
 
@@ -22,7 +22,7 @@ public class GUI{
         label.setForeground(Color.BLACK);
         label.setFont(new Font("Arial Rounded MT Bold", Font.BOLD,50)); //Sets font and style of text
         label.setIconTextGap(100); //Sets space between text and image
-        //label.setBackground(Color.); //sets background color to black
+        //label.setBackground(Color.black); //sets background color to black
         //label.setOpaque(true);
         label.setBorder(border); //sets border of window
         label.setVerticalAlignment(JLabel.CENTER);

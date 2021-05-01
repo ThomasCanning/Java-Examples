@@ -9,11 +9,12 @@ public class MyFrame extends JFrame {
         this.setTitle("Hangman"); //Sets title of this at top
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //Sets what happens when X is pressed (closes application)
         this.setResizable(true); //Allows this to be resizeable
-        this.setSize(500, 500); //sets dimensions of this
+        this.setSize(750, 750); //sets dimensions of this
         this.setVisible(true); //makes this visible
 
-        ImageIcon Image = new ImageIcon("src/GUI/Logo.png");
+        ImageIcon Image = new ImageIcon("src/testingoutswing/GUI/Logo.png");
         this.setIconImage(Image.getImage());//Sets this image to Image
         this.getContentPane().setBackground(new Color(237, 244, 237)); //Changes background color
+
     }
 }
