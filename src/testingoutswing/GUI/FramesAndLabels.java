@@ -8,7 +8,7 @@ public class FramesAndLabels {
 
     public static void main(String[] args) {
 
-        ImageIcon image = new ImageIcon("src/testingoutswing/GUI/Logo.png");
+        ImageIcon image = new ImageIcon("Logo.png");
         Border border = BorderFactory.createLineBorder(Color.gray,3);
 
         //New frame with label

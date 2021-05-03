@@ -8,7 +8,7 @@ public class Panels {
 
     public static void main(String[] args) {
 
-        ImageIcon icon = new ImageIcon("src/testingoutswing/GUI/Logo2.png");
+        ImageIcon icon = new ImageIcon("Logo2.png");
 
         JLabel label = new JLabel();
         label.setText("Hangman");
